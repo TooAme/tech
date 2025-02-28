@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: マイクラ日本
+subtitle: '古建物だけではありません'
+description: 'Building with LittleTiles'
 keywords:
-author: John Doe
-language: en
+author: Mecyan
+language: ja
 timezone: ''
 
 # URL
@@ -101,4 +101,6 @@ theme: reimu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/TooAme/tech.git
+  branch: main
